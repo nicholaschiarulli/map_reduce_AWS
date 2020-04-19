@@ -1,0 +1,11 @@
+﻿Short paragraph or two describing what you accomplished:
+
+
+I accomplished leveraging AWS EMR run MapReduce jobs splitting the input data-set into independent chunks which are processed by the map tasks in a completely parallel manner. This was done using hadoop to create a jar which then was uploaded to AWS S3 so that my created cluster could access it.
+        The input reddit data was then also uploaded to my S3 bucket and passed along with my main class of my jar as arguments in the step for my cluster. When the step completed it produced three separate files containing the ID and interaction numbers for the reddit data, and a _SUCCESS file.
+
+
+A short paragraph or two describing any issues you may have encountered and how you think you could have solved them. If you didn’t have any, simply state that you didn’t have any issues.
+
+
+        I had no issues.
